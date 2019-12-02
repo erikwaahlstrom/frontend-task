@@ -1,0 +1,85 @@
+html {
+  box-sizing: "border-box";
+  font-family: "Lato", sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  // background-color: lavenderblush;
+  background-color: #9edcdc;
+}
+
+.title {
+  font-family: "VT323", monospace;
+  font-size: 36px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  margin: 0 0 1.5rem;
+}
+
+main {
+  max-width: 960px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 1.25em;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 1rem;
+
+  h2 {
+    margin: 0 0 1rem;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  figure {
+    height: auto;
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+    margin-top: -1rem;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.input-box {
+  width: 100%;
+  padding: 20px 10px;
+  box-sizing: border-box;
+}
+
+.page-wrapper {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.notification-popup {
+  background-color: #fdf137;
+  max-width: 300px;
+  padding: 5px;
+}
